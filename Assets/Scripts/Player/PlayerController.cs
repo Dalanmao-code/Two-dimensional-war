@@ -1,15 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 
 /// <summary>
 /// 玩家控制器
 /// </summary>
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviourPun
 {
     public PlayerModel currentPlayerModel; //当前操控的角色模型
-    private Transform cameralTransform;
+    public Transform cameralTransform;
 
 
     #region 玩家输入相关
@@ -39,12 +40,15 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        cameralTransform = Camera.main.transform;
+        if(!photonView.IsMine)
+            cameralTransform.transform.parent.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!photonView.IsMine)
+            return;
         #region 更新玩家输入
         moveInput = input.Player.Move.ReadValue<Vector2>().normalized;
         IsSpring = input.Player.IsSprint.IsPressed();

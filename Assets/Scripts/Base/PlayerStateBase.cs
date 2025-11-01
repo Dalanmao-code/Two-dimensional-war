@@ -29,7 +29,12 @@ public class PlayerStateBase : StateBase
 
     public override void Update()
     {
-
+        #region 重力计算
+        if (!playerModel.characterController.isGrounded) //只有不在地面
+            playerModel.verticalSpeed += playerModel.gravity * Time.deltaTime; //施加重力
+        else
+            playerModel.verticalSpeed = playerModel.gravity*Time.deltaTime;
+        #endregion
     }
 
 

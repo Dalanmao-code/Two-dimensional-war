@@ -115,7 +115,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 2.8
   ACESParamB:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.4
   ACESParamC:
     m_OverrideState: 0
