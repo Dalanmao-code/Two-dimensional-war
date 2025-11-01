@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CyreneNPC_00_Mat_Hair
+  m_Shader: {fileID: 4800000, guid: 2dc60603c5db08646bfd45227dae2207, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _MODEL_MMD
+  - _OUTLINENORMAL_NORMAL
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LightMap:
+        m_Texture: {fileID: 2800000, guid: e240a6aeb097fe1498f8ad6f416234fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0899c1cb56b52d043930e8c9d351a351, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMapCool:
+        m_Texture: {fileID: 2800000, guid: 09ebeafe46085154a9f05154744c1c52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMapWarm:
+        m_Texture: {fileID: 2800000, guid: 0070f7a6e049fd842aa5004c0718b75a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaTest: 0
+    - _AlphaTestThreshold: 0.5
+    - _BackFaceUV2: 0
+    - _Cull: 0
+    - _DitherAlpha: 1
+    - _DstBlendAlpha: 0
+    - _EmissionIntensity: 0
+    - _EmissionThreshold: 1
+    - _HairBlendAlpha: 0.6
+    - _Model: 1
+    - _ModelScale: 1
+    - _OutlineNormal: 1
+    - _OutlineWidth: 0.65
+    - _OutlineZOffset: 0
+    - _RampCoolWarmLerpFactor: 1
+    - _RimDark0: 0.5
+    - _RimEdgeSoftness: 0.05
+    - _RimIntensity: 0.5
+    - _RimIntensityAdditionalLight: 0.5
+    - _RimIntensityBackFace: 0
+    - _RimIntensityBackFaceAdditionalLight: 0
+    - _RimShadowCt: 1
+    - _RimShadowFeather0: 0.9
+    - _RimShadowIntensity: 1
+    - _RimShadowWidth0: 0
+    - _RimWidth0: 0.5
+    - _SelfShadowDepthBias: -0.01
+    - _SelfShadowNormalBias: 0
+    - _SpecularIntensity0: 0.2
+    - _SpecularRoughness0: 0.02
+    - _SpecularShininess0: 10
+    - _SrcBlendAlpha: 0
+    - _mmBloomIntensity0: 0.02
+    m_Colors:
+    - _BackColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BloomColor0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MMDHeadBoneForward: {r: 0, g: 0, b: 1, a: 0}
+    - _MMDHeadBoneRight: {r: 1, g: 0, b: 0, a: 0}
+    - _MMDHeadBoneUp: {r: 0, g: 1, b: 0, a: 0}
+    - _Maps_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _OutlineColor0: {r: 0.3962264, g: 0.17568529, b: 0.22109085, a: 1}
+    - _RimColor0: {r: 0.9245283, g: 0.758811, b: 0.8175039, a: 1}
+    - _RimShadowColor0: {r: 0.7654859, g: 0.854444, b: 0.8867924, a: 1}
+    - _RimShadowOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor0: {r: 0.8962264, g: 0.81590426, b: 0.8820519, a: 1}
+  m_BuildTextureStacks: []
