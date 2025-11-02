@@ -32,7 +32,8 @@ public class PlayerStateBase : StateBase
         #region 重力计算
         if (!playerModel.characterController.isGrounded){ //只有不在地面
             playerModel.verticalSpeed += playerModel.gravity * Time.deltaTime; //施加重力
-
+            if(playerModel.IsHover())
+                playerModel.SwitchState(PlayerState.Hover);
         }
         else
             playerModel.verticalSpeed = playerModel.gravity * Time.deltaTime;

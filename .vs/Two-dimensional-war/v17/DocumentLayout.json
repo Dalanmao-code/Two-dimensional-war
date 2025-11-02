@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\UnityProjects\\Two-dimensional-war\\",
+  "WorkspaceRootPath": "D:\\UnityProjects\\Two-dimensional-war\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|e:\\unityprojects\\two-dimensional-war\\assets\\scripts\\player\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\base\\playerstatebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\base\\playerstatebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\playerstatebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|e:\\unityprojects\\two-dimensional-war\\assets\\scripts\\player\\state\\playerhoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\playerhoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\state\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\state\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\utils\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|d:\\unityprojects\\two-dimensional-war\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\state\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\state\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\utils\\monomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\monomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\player\\state\\playerhoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\state\\playerhoverstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|E:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\net\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|d:\\unityprojects\\two-dimensional-war\\assets\\scripts\\base\\singlemonobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\base\\singlemonobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\net\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\net\\launcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\utils\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\statemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|D:\\UnityProjects\\Two-dimensional-war\\assets\\scripts\\utils\\monomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B5CB33-6A7C-97C0-4371-1F42EB23F30C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\monomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,47 +50,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "SingleMonoBase.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\SingleMonoBase.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\SingleMonoBase.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\SingleMonoBase.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Base\\SingleMonoBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T13:24:45.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PlayerHoverState.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\State\\PlayerHoverState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T07:42:29.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerStateBase.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\PlayerStateBase.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\PlayerStateBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Base\\PlayerStateBase.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\PlayerStateBase.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Base\\PlayerStateBase.cs",
               "RelativeToolTip": "Assets\\Scripts\\Base\\PlayerStateBase.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAywBoAAAA2AAAA",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwCIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T11:42:44.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerModel.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerModel.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerModel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerModel.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerModel.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerModel.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerModel.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGgAAAAZAAAA",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T09:04:33.631Z",
               "EditorCaption": ""
@@ -95,76 +116,74 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAYwEAAAAAVAAAA",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T08:57:43.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PlayerMoveState.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\State\\PlayerMoveState.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAQwCYAAAAdAAAA",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwEAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T09:03:06.607Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "PlayerIdleState.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\State\\PlayerIdleState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAgAAAA",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T09:02:56.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "StateMachine.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\StateMachine.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\StateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\StateMachine.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\StateMachine.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\StateMachine.cs",
               "RelativeToolTip": "Assets\\Scripts\\Utils\\StateMachine.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAIwBUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:57:37.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-01T08:57:37.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MonoManager.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\MonoManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\MonoManager.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\MonoManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utils\\MonoManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T08:53:45.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "MonoManager.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\MonoManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\MonoManager.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Utils\\MonoManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Utils\\MonoManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-01T08:53:45.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Launcher.cs",
-              "DocumentMoniker": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Net\\Launcher.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Net\\Launcher.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Net\\Launcher.cs",
-              "ToolTip": "E:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Net\\Launcher.cs",
+              "ToolTip": "D:\\UnityProjects\\Two-dimensional-war\\Assets\\Scripts\\Net\\Launcher.cs",
               "RelativeToolTip": "Assets\\Scripts\\Net\\Launcher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T08:42:29.547Z"
             }

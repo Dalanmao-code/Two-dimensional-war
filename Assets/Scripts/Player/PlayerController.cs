@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.Windows;
+using UnityEngine.InputSystem;
+using UnityEngine.Playables;
+using Unity.VisualScripting;
 
 
 /// <summary>
@@ -11,6 +15,10 @@ public class PlayerController : MonoBehaviourPun
 {
     public PlayerModel currentPlayerModel; //当前操控的角色模型
     public Transform cameralTransform;
+    [Tooltip("安卓相关")]
+    public Joystick movejoystick;
+
+    private static bool IsAndroid = false;
 
 
     #region 玩家输入相关
@@ -35,7 +43,12 @@ public class PlayerController : MonoBehaviourPun
 
     private void Awake()
     {
+        if (!photonView.IsMine)
+            return;
+        Application.targetFrameRate = 90;
         input = new MyInputSystem();
+        if(IsAndroid)
+        movejoystick = GameObject.Find("Variable Joystick").GetComponent<Joystick>();
     }
 
     void Start()
@@ -50,7 +63,11 @@ public class PlayerController : MonoBehaviourPun
         if (!photonView.IsMine)
             return;
         #region 更新玩家输入
-        moveInput = input.Player.Move.ReadValue<Vector2>().normalized;
+        if (!IsAndroid)
+            moveInput = input.Player.Move.ReadValue<Vector2>().normalized;
+        else
+            moveInput = new Vector2(movejoystick.Horizontal, movejoystick.Vertical);
+
         IsSpring = input.Player.IsSprint.IsPressed();
         IsAiming = input.Player.IsAiming.IsPressed();
         IsJumping = input.Player.IsJumping.IsPressed();

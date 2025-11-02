@@ -26,7 +26,7 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         base.OnJoinedRoom();
 
-        //PhotonNetwork.Instantiate("Player",new Vector3(0,0,0),Quaternion.identity,0);
+        PhotonNetwork.Instantiate("Player",new Vector3(0,0,0),Quaternion.identity,0);
     }
     // Update is called once per frame
     void Update()
