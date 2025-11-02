@@ -2026,7 +2026,7 @@ GameObject:
   - component: {fileID: 1654434589}
   - component: {fileID: 1654434588}
   m_Layer: 0
-  m_Name: PlayerCanvas
+  m_Name: AndroidCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

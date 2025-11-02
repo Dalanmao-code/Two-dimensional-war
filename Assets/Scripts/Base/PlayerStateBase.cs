@@ -38,6 +38,13 @@ public class PlayerStateBase : StateBase
         else
             playerModel.verticalSpeed = playerModel.gravity * Time.deltaTime;
         #endregion
+
+        #region Ãé×¼×´Ì¬¼àÌý
+        if (playerController.IsAiming)
+        {
+            playerModel.SwitchState(PlayerState.Aiming);
+        }
+        #endregion
     }
 
 
