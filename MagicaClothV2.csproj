@@ -70,8 +70,8 @@
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Cloth\CustomSkinningSettings.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\Render\RenderData.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Cloth\ClothProcessGeneration.cs" />
-    <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\Simulation\SimulationManager.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\VirtualMesh\Function\VirtualMeshWork.cs" />
+    <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\Simulation\SimulationManager.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Utility\ResultCode\Exception.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Cloth\ClothUpdateMode.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Define\ResultDefine.cs" />
@@ -106,8 +106,8 @@
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Cloth\MagicaClothAnimationProperty.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Utility\NativeCollection\NativeArrayExtensions.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\VirtualMesh\VirtualMeshContainer.cs" />
-    <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\MagicaSettings.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Utility\NativeCollection\ExCostSortedList4.cs" />
+    <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\MagicaSettings.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Utility\Math\MathUtility.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Manager\Simulation\SimulationManagerSplit.cs" />
     <Compile Include="Assets\OtherAssets\MagicaCloth2\Scripts\Core\Cloth\Collider\MagicaPlaneCollider.cs" />
@@ -540,12 +540,20 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@2.0.3\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@2.6.3\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
@@ -558,14 +566,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@2.6.3\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Photon3Unity3D">
-      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="websocket-sharp">
-      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">

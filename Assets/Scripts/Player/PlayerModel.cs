@@ -5,7 +5,7 @@ using Photon.Pun;
 
 public enum PlayerState
 {
-    Idle,Move
+    Idle,Move,Hover
 }
 
 /// <summary>
@@ -29,6 +29,8 @@ public class PlayerModel : MonoBehaviourPun,IStateMachineOwer
 
     [HideInInspector]
     public float verticalSpeed; //当前垂直速度
+    [Tooltip("悬空判定高度")]
+    public float fallHeight = 0.2f;
     #endregion
 
     // Start is called before the first frame update
@@ -64,6 +66,9 @@ public class PlayerModel : MonoBehaviourPun,IStateMachineOwer
             case PlayerState.Move:
                 stateMachine.EnterState<PlayerMoveState>();
                 break;
+            case PlayerState.Hover:
+                stateMachine.EnterState<PlayerHoverState>();
+                break;
         }
         currentState = state;
     }
@@ -88,8 +93,18 @@ public class PlayerModel : MonoBehaviourPun,IStateMachineOwer
         if (!photonView.IsMine)
             return;
         Vector3 playerDeltaMovement = animator.deltaPosition; //获取动画控制器当前位置
-        playerDeltaMovement.y = verticalSpeed *Time.deltaTime;
+        playerDeltaMovement.y = verticalSpeed * Time.deltaTime;
         characterController.Move(playerDeltaMovement);
+    }
+
+
+    /// <summary>
+    /// 是否悬空
+    /// </summary>
+    /// <returns></returns>
+    public bool IsHover()
+    {
+        return !Physics.Raycast(transform.position, Vector3.down, fallHeight);
     }
 
 

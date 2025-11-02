@@ -22,6 +22,12 @@ public class PlayerIdleState : PlayerStateBase
             if (playerController.moveInput.magnitude != 0)
                 playerModel.SwitchState(PlayerState.Move);
             #endregion
+
+            #region Ðü¿Õ×´Ì¬¼àÌý
+            if(playerController.IsJumping)
+                SwitchToHover();
+            #endregion
+
         }
     }
 }

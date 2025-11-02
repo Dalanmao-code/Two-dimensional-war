@@ -30,10 +30,12 @@ public class PlayerStateBase : StateBase
     public override void Update()
     {
         #region 重力计算
-        if (!playerModel.characterController.isGrounded) //只有不在地面
+        if (!playerModel.characterController.isGrounded){ //只有不在地面
             playerModel.verticalSpeed += playerModel.gravity * Time.deltaTime; //施加重力
+
+        }
         else
-            playerModel.verticalSpeed = playerModel.gravity*Time.deltaTime;
+            playerModel.verticalSpeed = playerModel.gravity * Time.deltaTime;
         #endregion
     }
 
@@ -45,5 +47,16 @@ public class PlayerStateBase : StateBase
     public bool IsBeControl()
     {
         return playerModel == playerController.currentPlayerModel;
+    }
+
+    /// <summary>
+    /// 切换方法方法
+    /// </summary>
+    public void SwitchToHover()
+    {
+        //计算跳跃速度
+        playerModel.verticalSpeed = Mathf.Sqrt(-2 * playerModel.gravity * playerModel.jumpHeight);
+        //切换到悬空状态
+        playerModel.SwitchState(PlayerState.Hover);
     }
 }
