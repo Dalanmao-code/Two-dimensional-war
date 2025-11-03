@@ -58,17 +58,22 @@ public class PlayerController : MonoBehaviourPun
     [HideInInspector]
     public Vector3 worldMovement; //世界空间下玩家的移动方向
 
+    public bool isMine;
     private void Awake()
     {
+
         if (!photonView.IsMine)
         {
-            AimTarget.gameObject.SetActive(false);
+            AimTarget.transform.GetChild(0).gameObject.SetActive(false);
             return;
         }
         Application.targetFrameRate = 90;
         input = new MyInputSystem();
-        if(IsAndroid)
-        movejoystick = GameObject.Find("Variable Joystick").GetComponent<Joystick>();
+        if (IsAndroid)
+        {
+            movejoystick = GameObject.Find("Variable Joystick").GetComponent<Joystick>();
+            Screen.autorotateToLandscapeLeft = true;
+        }
     }
 
     void Start()
@@ -122,10 +127,13 @@ public class PlayerController : MonoBehaviourPun
         currentPlayerModel.rightHandAimConstraint.weight = 1;
         currentPlayerModel.BodyAimConstraint.weight = 1;
         currentPlayerModel.rightHandConstraint.weight = 0;
+        photonView.RPC("FixedWeight", RpcTarget.Others, true);
 
         //设置相机的优先级
         freeLookCamera.Priority = 0;
         aimingCamera.Priority = 100;
+
+
     }
     public void ExitAim()
     {
@@ -137,13 +145,32 @@ public class PlayerController : MonoBehaviourPun
         currentPlayerModel.rightHandAimConstraint.weight = 0;
         currentPlayerModel.BodyAimConstraint.weight = 0;
         currentPlayerModel.rightHandConstraint.weight = 1;
+        photonView.RPC("FixedWeight", RpcTarget.Others, false);
 
         //设置相机的优先级
         freeLookCamera.Priority = 100;
         aimingCamera.Priority = 0;
     }
 
-   
+    [PunRPC]
+    public void FixedWeight(bool Enabled)
+    {
+        if (!photonView.IsMine)
+        {
+            if (Enabled)
+            {
+                currentPlayerModel.rightHandAimConstraint.weight = 1;
+                currentPlayerModel.BodyAimConstraint.weight = 1;
+                currentPlayerModel.rightHandConstraint.weight = 0;
+            }
+            else
+            {
+                currentPlayerModel.rightHandAimConstraint.weight = 0;
+                currentPlayerModel.BodyAimConstraint.weight = 0;
+                currentPlayerModel.rightHandConstraint.weight = 1;
+            }
+        }
+    }
 
     private void OnEnable()
     {
