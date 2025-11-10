@@ -663,6 +663,8 @@ MonoBehaviour:
   rotationSpeed: 300
   localMovement: {x: 0, y: 0, z: 0}
   worldMovement: {x: 0, y: 0, z: 0}
+  AimUi: {fileID: 0}
+  isMine: 0
 --- !u!114 &5843572279198608760
 MonoBehaviour:
   m_ObjectHideFlags: 0

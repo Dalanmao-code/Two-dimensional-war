@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/china_unity/release' branch; Version is '2022.3.42f1c1 (d3f79ae33604) revision 13891482'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32599 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32397 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\2022.3.42f1c1\Editor\Unity.exe
+D:\Uni_Editor\2022.3.42f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/UnityProjects/Two-dimensional-war
+D:/UnityProjects/Two-dimensional-war
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50565
-Successfully changed project path to: E:/UnityProjects/Two-dimensional-war
-E:/UnityProjects/Two-dimensional-war
+61421
+Successfully changed project path to: D:/UnityProjects/Two-dimensional-war
+D:/UnityProjects/Two-dimensional-war
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,70 @@ E:/UnityProjects/Two-dimensional-war
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23404]  Target information:
+Player connection [7740]  Target information:
 
-Player connection [23404]  * "[IP] 10.11.27.200 [Port] 0 [Flags] 2 [Guid] 3009098605 [EditorId] 3009098605 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-V7CS1ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7740]  * "[IP] 192.168.122.58 [Port] 0 [Flags] 2 [Guid] 1788250288 [EditorId] 1788250288 [Version] 1048832 [Id] WindowsEditor(7,幻X2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23404]  * "[IP] 26.79.196.18 [Port] 0 [Flags] 2 [Guid] 3009098605 [EditorId] 3009098605 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-V7CS1ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [23404] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23404] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 59.22 ms, found 3 plugins.
+Player connection [7740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7740] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 101.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
-[Subsystems] Discovering subsystems at path E:/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/UnityProjects/Two-dimensional-war/Assets
+[Subsystems] Discovering subsystems at path D:/Uni_Editor/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Two-dimensional-war/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
+    VRAM:     7957 MB
     Driver:   32.0.15.8115
 Initialize mono
-Mono path[0] = 'E:/2022.3.42f1c1/Editor/Data/Managed'
-Mono path[1] = 'E:/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
+Mono path[0] = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017007 seconds.
-- Loaded All Assemblies, in  0.376 seconds
+Register platform support module: D:/Uni_Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Uni_Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023115 seconds.
+- Loaded All Assemblies, in  0.462 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 795 ms
+Android Extension - Scanning For ADB Devices 618 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.072 seconds
-Domain Reload Profiling: 1440ms
-	BeginReloadAssembly (117ms)
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1413ms
+	BeginReloadAssembly (157ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (139ms)
-		LoadAssemblies (107ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (142ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (141ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1072ms)
+	FinalizeReload (961ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1032ms)
+		SetupLoadedEditorAssemblies (918ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (899ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (753ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (86ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,54 +122,54 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.909 seconds
+- Loaded All Assemblies, in  1.232 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.822 seconds
-Domain Reload Profiling: 1708ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  1.335 seconds
+Domain Reload Profiling: 2540ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (656ms)
-		LoadAssemblies (524ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (870ms)
+		LoadAssemblies (669ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (162ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (822ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1336ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (680ms)
+		SetupLoadedEditorAssemblies (1141ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (2ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (729ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (5ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 20.25 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 31.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6885 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (468.4 KB). Loaded Objects now: 7348.
-Memory consumption went from 294.5 MB to 294.0 MB.
-Total: 3.726300 ms (FindLiveObjects: 0.431800 ms CreateObjectMapping: 0.203500 ms MarkObjects: 2.875300 ms  DeleteObjects: 0.214500 ms)
+Unloading 6899 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (489.6 KB). Loaded Objects now: 7362.
+Memory consumption went from 315.7 MB to 315.2 MB.
+Total: 5.601700 ms (FindLiveObjects: 0.428100 ms CreateObjectMapping: 0.204600 ms MarkObjects: 4.726400 ms  DeleteObjects: 0.241300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,72 +180,126 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.910622 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a14e2c244077100ba5f9f50396c0d615') in 0.674484 seconds
+  Time since last request: 445382.820924 seconds.
+  path: Assets/Prefabs/Ui/BackPack/Light - Chat.prefab
+  artifactKey: Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/Light - Chat.prefab using Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5501f6414cc964955a5ac1fb219b84d4') in 0.229091 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1750
+Number of asset objects unloaded after import = 628
+========================================================================
+Received Import Request.
+  Time since last request: 28.772975 seconds.
+  path: Assets/Prefabs/Ui
+  artifactKey: Guid(8dbe2b2d51b161f4d879dee1f84ad065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui using Guid(8dbe2b2d51b161f4d879dee1f84ad065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dbca07f8f8cd2f06dbfda5f2e2288df5') in 0.001172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.735607 seconds.
+  path: Assets/Prefabs/Ui/BackPack/Light - Chat.prefab
+  artifactKey: Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/Light - Chat.prefab using Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fc141ca015384878814673343e8c7e64') in 0.044491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 673
+========================================================================
+Received Import Request.
+  Time since last request: 5.355836 seconds.
+  path: Assets/Prefabs/Ui/BackPack/List
+  artifactKey: Guid(d132dc59586b832469140e7af01e9c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/List using Guid(d132dc59586b832469140e7af01e9c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0bbae8149fa03f753d48be56843270d8') in 0.001134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.227898 seconds.
+  path: Assets/Prefabs/Ui/BackPack/List/List.prefab
+  artifactKey: Guid(6216f61df8564e94d99688e68f2cc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/List/List.prefab using Guid(6216f61df8564e94d99688e68f2cc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f357f1f44d1d67ff1c7075767765ab1d') in 0.028018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Ui/BackPack/List/YouList.prefab
+  artifactKey: Guid(cd5e2da9b1e15e64488e7058a16aaf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/List/YouList.prefab using Guid(cd5e2da9b1e15e64488e7058a16aaf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c7c75f27b5f1ceaa0f6f8a295d3d0274') in 0.017500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 122.105005 seconds.
+  path: Assets/Prefabs/Ui/BackPack/Light - Chat.prefab
+  artifactKey: Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ui/BackPack/Light - Chat.prefab using Guid(03e4f4747e1e21a47bd4bfa37deb3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f1099da198262cd9e54af2989d4d9db9') in 0.065206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 681
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.782 seconds
+- Loaded All Assemblies, in  0.897 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.626 seconds
-Domain Reload Profiling: 3386ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  2.974 seconds
+Domain Reload Profiling: 3838ms
+	BeginReloadAssembly (223ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (544ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (613ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (2627ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2975ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (768ms)
+		SetupLoadedEditorAssemblies (915ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (36ms)
+			InitializePlatformSupportModulesInManaged (33ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (430ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (31ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (525ms)
+			ProcessInitializeOnLoadMethodAttributes (203ms)
+			AfterProcessingInitializeOnLoad (29ms)
+			EditorAssembliesLoaded (3ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (31ms)
-Refreshing native plugins compatible for Editor in 28.19 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 23.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6693 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (442.1 KB). Loaded Objects now: 7420.
-Memory consumption went from 260.0 MB to 259.6 MB.
-Total: 4.790200 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.354100 ms MarkObjects: 3.773200 ms  DeleteObjects: 0.210200 ms)
+Unloading 6707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (464.0 KB). Loaded Objects now: 7382.
+Memory consumption went from 273.9 MB to 273.5 MB.
+Total: 5.604100 ms (FindLiveObjects: 0.395100 ms CreateObjectMapping: 0.184500 ms MarkObjects: 4.805400 ms  DeleteObjects: 0.218000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -259,79 +311,842 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 101.302468 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a36c56827351adc2785045f363365532') in 0.003792 seconds
+  Time since last request: 300.477457 seconds.
+  path: Assets/Arts/Modle/Xilian/Xilian_Main/xilian.fbx
+  artifactKey: Guid(1f5bd9846b017d74b8aad965083d299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Xilian_Main/xilian.fbx using Guid(1f5bd9846b017d74b8aad965083d299d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c201b334249c9852841537e9b88f5c33') in 1.225197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 799
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Material/CyreneNPC_00_Mat_Face.mat
+  artifactKey: Guid(6ed10171a99297840badf2719344d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Material/CyreneNPC_00_Mat_Face.mat using Guid(6ed10171a99297840badf2719344d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '99377cc45c7b6d5754378f11b1d234fe') in 0.999725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Art_CyreneNPC_00.fbx
+  artifactKey: Guid(dde854ccb4b7338419db2c4ebeb5fe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Art_CyreneNPC_00.fbx using Guid(dde854ccb4b7338419db2c4ebeb5fe34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '37358a82ea64427b7be6829798a85ddf') in 0.035636 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.428962 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '72b255a42516095948398fedb5b3ff0d') in 0.000820 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Avatar_CyreneNPC_00_Body_Color.png
+  artifactKey: Guid(f75b9b786e1a6a547b6e4f21489a43cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Avatar_CyreneNPC_00_Body_Color.png using Guid(f75b9b786e1a6a547b6e4f21489a43cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6fc806a904f57340221fd61f316aec67') in 0.087324 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 2.704398 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '47d59a11ff6fea36b26254be9e2e2145') in 0.000996 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Avatar_CyreneNPC_00_Hair_Cool_Ramp.png
+  artifactKey: Guid(09ebeafe46085154a9f05154744c1c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Avatar_CyreneNPC_00_Hair_Cool_Ramp.png using Guid(09ebeafe46085154a9f05154744c1c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8dfcb8c843662198b9faf71b2f555274') in 0.038353 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 10.311348 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '95b01d10e8e642e7389a674951a35e25') in 0.001052 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Material/CyreneNPC_00_Mat_Body_S.mat
+  artifactKey: Guid(a940093c3af02004680995bc7e20a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arts/Modle/Xilian/Art_CyreneNPC_00/Material/CyreneNPC_00_Mat_Body_S.mat using Guid(a940093c3af02004680995bc7e20a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cfa2d654ce950d03c3e96f32f5383c0c') in 1.164319 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 2.325091 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f088b9932a5b9ca572d68ec9ec97964b') in 0.000821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.308916 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3f73cfe75575cc49d60eba93ddcd56da') in 0.000888 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 31.013856 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab
-  artifactKey: Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Resources/Player.prefab using Guid(ff5aeb3961734534086372b2944ef1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3f73cfe75575cc49d60eba93ddcd56da') in 0.000995 seconds
+  Time since last request: 7.330303 seconds.
+  path: Assets/Scripts/Utils
+  artifactKey: Guid(7ba852c11bd6ade4cbdec1d2871f38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils using Guid(7ba852c11bd6ade4cbdec1d2871f38ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8a1827faa49f86dbe2f4c81005e82462') in 0.019282 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 23.58 ms, found 3 plugins.
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.277 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.852 seconds
+Domain Reload Profiling: 5089ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (758ms)
+		LoadAssemblies (860ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1221ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (645ms)
+			ProcessInitializeOnLoadMethodAttributes (322ms)
+			AfterProcessingInitializeOnLoad (48ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 44.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4 unused Assets / (462.0 KB). Loaded Objects now: 7420.
-Memory consumption went from 152.5 MB to 152.1 MB.
-Total: 4.407200 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.219500 ms MarkObjects: 3.698100 ms  DeleteObjects: 0.141400 ms)
+Unloading 6708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (464.3 KB). Loaded Objects now: 7491.
+Memory consumption went from 276.7 MB to 276.2 MB.
+Total: 5.467500 ms (FindLiveObjects: 0.457700 ms CreateObjectMapping: 0.219600 ms MarkObjects: 4.424800 ms  DeleteObjects: 0.364000 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e169628c0bf6815de36e2c94bb10280e -> 425c382142a332bf8d7c6cb43e764b12
+  custom:scripting/monoscript/fileName/ChatManager.cs: 3786e9cd8044999b8da3d92eca11bb6b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.056 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.946 seconds
+Domain Reload Profiling: 4965ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (712ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (56ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (3947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (971ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (158ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (211ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 29.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (456.2 KB). Loaded Objects now: 7510.
+Memory consumption went from 276.6 MB to 276.1 MB.
+Total: 7.744200 ms (FindLiveObjects: 0.592000 ms CreateObjectMapping: 0.245800 ms MarkObjects: 6.628800 ms  DeleteObjects: 0.275300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e169628c0bf6815de36e2c94bb10280e -> 425c382142a332bf8d7c6cb43e764b12
+  custom:scripting/monoscript/fileName/ChatManager.cs: 3786e9cd8044999b8da3d92eca11bb6b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.967 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.743 seconds
+Domain Reload Profiling: 3677ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (576ms)
+		LoadAssemblies (649ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (59ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2743ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (843ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (197ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 19.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (456.0 KB). Loaded Objects now: 7529.
+Memory consumption went from 276.6 MB to 276.2 MB.
+Total: 4.890700 ms (FindLiveObjects: 0.481800 ms CreateObjectMapping: 0.214600 ms MarkObjects: 3.936700 ms  DeleteObjects: 0.255900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e169628c0bf6815de36e2c94bb10280e -> 425c382142a332bf8d7c6cb43e764b12
+  custom:scripting/monoscript/fileName/ChatManager.cs: 3786e9cd8044999b8da3d92eca11bb6b -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.885 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.537 seconds
+Domain Reload Profiling: 3402ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (586ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2537ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (802ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (436ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 26.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (464.3 KB). Loaded Objects now: 7549.
+Memory consumption went from 276.6 MB to 276.2 MB.
+Total: 6.517000 ms (FindLiveObjects: 0.488700 ms CreateObjectMapping: 0.337600 ms MarkObjects: 5.353100 ms  DeleteObjects: 0.336200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ChatNpcData.cs: 928283d7816d96049973d88ed6a21e19 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 26460d800dba15311b64ec465d48cf01 -> 425c382142a332bf8d7c6cb43e764b12
+  custom:scripting/monoscript/fileName/ChatManager.cs: 719b83c879859009f78e84bee1438b0c -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 494.660446 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Alert Popup.png
+  artifactKey: Guid(c6ebb3e0569f04d3584d4bae2609bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Alert Popup.png using Guid(c6ebb3e0569f04d3584d4bae2609bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '819a38abd0ae0fd582a5d7e85cc016b5') in 0.157356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.743690 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Chat Popup.png
+  artifactKey: Guid(16d2a2af1ef0048678eba63b4f36fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Chat Popup.png using Guid(16d2a2af1ef0048678eba63b4f36fd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a3bebc5d376110130ba3d095d8ee2f3a') in 0.044687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.872388 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Animations/Spinner/Item 2.overrideController
+  artifactKey: Guid(67af611d82b3b443a8267327d0244d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Animations/Spinner/Item 2.overrideController using Guid(67af611d82b3b443a8267327d0244d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3b3dfa899c03cf7e5573fada9f2b64b9') in 0.006187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Animations/Spinner/Item 4.overrideController
+  artifactKey: Guid(1c789374995644a0880500f4ac5993f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Animations/Spinner/Item 4.overrideController using Guid(1c789374995644a0880500f4ac5993f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ba0f4445fc071ba102e059fb889a00ed') in 0.004589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.639931 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Coins Shop Popup.psd
+  artifactKey: Guid(840cf398562e54ce491f6031b972f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Coins Shop Popup.psd using Guid(840cf398562e54ce491f6031b972f6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '00fabaa6849cb244d1b8eb4283c92681') in 0.019609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005798 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Contact Popup.png
+  artifactKey: Guid(1b5c659adff7d4a479fce6d461d45eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Contact Popup.png using Guid(1b5c659adff7d4a479fce6d461d45eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e334aff3806be762493c08302cabb53a') in 0.033599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Contact Popup.psd
+  artifactKey: Guid(3cfa52da9fad14b83aa8f2b3ca8b0c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Contact Popup.psd using Guid(3cfa52da9fad14b83aa8f2b3ca8b0c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e7700012344d8bdf410130603efedb0a') in 0.032029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Friends Popup.psd
+  artifactKey: Guid(ae8aa5a64fe4d4cf8a22b8c866ecfd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Friends Popup.psd using Guid(ae8aa5a64fe4d4cf8a22b8c866ecfd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bdbb270739a320ee26d33f4624e7558e') in 0.031331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Friends Popup.png
+  artifactKey: Guid(fee4ebf3146364b60be758392119adb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Friends Popup.png using Guid(fee4ebf3146364b60be758392119adb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e681f09d67f9c2b258adb87349ed9a04') in 0.046688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Gems Shop Popup.png
+  artifactKey: Guid(f0dd9cb1685794451bee9753f15c6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Gems Shop Popup.png using Guid(f0dd9cb1685794451bee9753f15c6f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '47bf91bd091d8804b8f5a440690d3998') in 0.022758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Gems Shop Popup.psd
+  artifactKey: Guid(cc588296e431f418fb97e7d99667659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Gems Shop Popup.psd using Guid(cc588296e431f418fb97e7d99667659f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4f50155e8bd575e119b2a19fe76f60b1') in 0.023253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.109548 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Leaderboard Popup.png
+  artifactKey: Guid(57fab9a86ad95417d9dc6ab784b5d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Leaderboard Popup.png using Guid(57fab9a86ad95417d9dc6ab784b5d0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '87fc5814776b370d5a520581320d9645') in 0.037843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Level Up Popup.psd
+  artifactKey: Guid(f722cbf37ef9946c48b3e4dbac2aea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Level Up Popup.psd using Guid(f722cbf37ef9946c48b3e4dbac2aea7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8b0a014e616c48bd4c8877763d8e1098') in 0.037082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Level Up Popup.png
+  artifactKey: Guid(20eae4c4d1b21473d86cf0ba4abecf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Level Up Popup.png using Guid(20eae4c4d1b21473d86cf0ba4abecf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8301ae8af31a61f73bd4d77b44fd1837') in 0.037824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.027297 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Life Shop Popup.png
+  artifactKey: Guid(be3852f4038b648ab8a03fa4885e4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Life Shop Popup.png using Guid(be3852f4038b648ab8a03fa4885e4c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '65957f7ee182937c8ab7cfecab0cef44') in 0.049127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Level Up Popup.png
+  artifactKey: Guid(b29dbccb59c38401289c6de4357c12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Level Up Popup.png using Guid(b29dbccb59c38401289c6de4357c12e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b1463ded195c6eb989aab68817358667') in 0.033265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Log In Popup.psd
+  artifactKey: Guid(a7adf83a2c2bf4a98835923b4fb262f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Log In Popup.psd using Guid(a7adf83a2c2bf4a98835923b4fb262f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2d1b8caf9e24716a7264d6314bb7040d') in 0.029633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018897 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Log In Popup.png
+  artifactKey: Guid(68df44b1012594fb9be48c87694db687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Log In Popup.png using Guid(68df44b1012594fb9be48c87694db687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ea862e45d4ed19aeb3f2227bd03180fc') in 0.033930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Lose Popup.png
+  artifactKey: Guid(57012a1e7f29d496ea8a843140d61f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Lose Popup.png using Guid(57012a1e7f29d496ea8a843140d61f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd6cb50d1bcf61e64777181b98d397578') in 0.038466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Messages Popup.png
+  artifactKey: Guid(c4cb82df0406f47b2be6c17913d49f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Messages Popup.png using Guid(c4cb82df0406f47b2be6c17913d49f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fc9976437e7a09577127605624a8604f') in 0.036922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Messages Popup.psd
+  artifactKey: Guid(e7a1b1fdcdaa4401aa25ff4a427d79ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Messages Popup.psd using Guid(e7a1b1fdcdaa4401aa25ff4a427d79ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b5f631ca7784515da29be0b73eb3ef56') in 0.032892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Messages Popup.png
+  artifactKey: Guid(649353a0ddd8e401a9e7956392ba25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Messages Popup.png using Guid(649353a0ddd8e401a9e7956392ba25ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '631ab0a1ae9f043f2c22ec6b439b1243') in 0.033732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.745684 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Missions Popup.png
+  artifactKey: Guid(a0378abdc1a56432e8b01432b97ed7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Missions Popup.png using Guid(a0378abdc1a56432e8b01432b97ed7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e163301631f502f6be5c617d89d1a8e5') in 0.037859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012718 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Modal Popup.png
+  artifactKey: Guid(72e717ccfbb854a72b9129e65fbdb0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Modal Popup.png using Guid(72e717ccfbb854a72b9129e65fbdb0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4c7f3621dd470634d5b11d3d99f4eb0') in 0.039480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Profile - Inventory Popup.png
+  artifactKey: Guid(8eacb14f820f54248b10a6ec8658caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Profile - Inventory Popup.png using Guid(8eacb14f820f54248b10a6ec8658caf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1c8f66f9799df99e48bb42eb7607761c') in 0.036164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Profile - Skills Popup.psd
+  artifactKey: Guid(deaeda17efd294880b5254981bd36b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Profile - Skills Popup.psd using Guid(deaeda17efd294880b5254981bd36b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '47ffe1d0931517975239e5f0773c3e7b') in 0.031817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Sign Up Popup.png
+  artifactKey: Guid(30836022d0b504e12a8d43335fab1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Sign Up Popup.png using Guid(30836022d0b504e12a8d43335fab1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0f2db1254a2708216e2596f098bd5662') in 0.034611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Settings Popup.psd
+  artifactKey: Guid(90669892d77824221abcc8346a14f929) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Settings Popup.psd using Guid(90669892d77824221abcc8346a14f929) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ac7d9b1ae2ae86a05d6b501852c281e9') in 0.037235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Profile - Stats Popup.png
+  artifactKey: Guid(1c45f8c92b3694dbb970cc1e5800127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Profile - Stats Popup.png using Guid(1c45f8c92b3694dbb970cc1e5800127c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c2fc7c07b13a637256c9b2631fc819ed') in 0.034677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Settings Popup.psd
+  artifactKey: Guid(925569100e0d24258a3de1a4c74e0a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Settings Popup.psd using Guid(925569100e0d24258a3de1a4c74e0a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '95ce4a3e8b90459492157c4f2f042e66') in 0.030443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Sign Up Popup.psd
+  artifactKey: Guid(897c234c4eaa04dc39599747c2b7099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Sign Up Popup.psd using Guid(897c234c4eaa04dc39599747c2b7099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '09a7692594323142795cfe37290520e1') in 0.032904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Statistics Popup.psd
+  artifactKey: Guid(75dcc7ef099f74bcfbb678425de3bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Statistics Popup.psd using Guid(75dcc7ef099f74bcfbb678425de3bf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a109941585e9ffbc5bab1ee578b2209d') in 0.033238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Profile - Skills Popup.png
+  artifactKey: Guid(551b8ff3a9609496ead536d65b1eaaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Profile - Skills Popup.png using Guid(551b8ff3a9609496ead536d65b1eaaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2fc51342ccbc39b89373c5c1d95a171d') in 0.033076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Video Player Popup.psd
+  artifactKey: Guid(96a4f3be2f46a4feb9784c3782ea82fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Video Player Popup.psd using Guid(96a4f3be2f46a4feb9784c3782ea82fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cdce6ca4064a1c5fda1fd24e00d91137') in 0.031099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Modal Popup.png
+  artifactKey: Guid(2c72a8f6ec1644fd8b4ad05c2b48ef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Modal Popup.png using Guid(2c72a8f6ec1644fd8b4ad05c2b48ef41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '274096dbae3cbe1da9756c1dd4b62de8') in 0.031624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Profile - Inventory Popup.psd
+  artifactKey: Guid(c0a3fcd363774479a8a28d0f242dce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Profile - Inventory Popup.psd using Guid(c0a3fcd363774479a8a28d0f242dce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff9c41f14faf84cfefb7271100b6ca32') in 0.032255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Shop Popup.psd
+  artifactKey: Guid(f20e958255f7d420db13d515fefbbae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Shop Popup.psd using Guid(f20e958255f7d420db13d515fefbbae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f7d792205b251d1a33129e573319c8de') in 0.016594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Settings Popup.png
+  artifactKey: Guid(9a3309e30bec644c0af7590539bc129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Settings Popup.png using Guid(9a3309e30bec644c0af7590539bc129a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e22c2b4122b3e66d3337f674dc9ec6b5') in 0.016344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Video Player Popup.png
+  artifactKey: Guid(1f1144a2d1825483f9f3d3f60dd4b14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Video Player Popup.png using Guid(1f1144a2d1825483f9f3d3f60dd4b14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3b00701fe567c48dbcf299cdb737eaad') in 0.029828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Video Player Popup.psd
+  artifactKey: Guid(b26aa79bd4e5e4bea859f03dd042dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Video Player Popup.psd using Guid(b26aa79bd4e5e4bea859f03dd042dec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '51778a2aa36b2d5f294a61e2307cf712') in 0.029332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Win Popup.psd
+  artifactKey: Guid(9289b145ebda64930a0973e9e09a9a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PSD/Win Popup.psd using Guid(9289b145ebda64930a0973e9e09a9a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '812971e073f848f8deb0d66a4de3e6bd') in 0.030873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Sign Up Popup.psd
+  artifactKey: Guid(5b77b5b4057f64f759f92e2e71edb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Sign Up Popup.psd using Guid(5b77b5b4057f64f759f92e2e71edb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd6bebd2c14e4ff0febc18516c1649397') in 0.027890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Settings Popup.png
+  artifactKey: Guid(98aefcd782ce94d51a7a06dbbcf822fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Settings Popup.png using Guid(98aefcd782ce94d51a7a06dbbcf822fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '061c53bbd5e212bb8ba75dbc549c2cd3') in 0.013694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Profile - Stats Popup.psd
+  artifactKey: Guid(4c304ebc902b548ab9f65f75f2fe6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Profile - Stats Popup.psd using Guid(4c304ebc902b548ab9f65f75f2fe6b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e0371c7a68bd4d5e3d20bc001c653632') in 0.032811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Win Popup.png
+  artifactKey: Guid(238855c82f9494dd6985deaba9768983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Light/PNG/Win Popup.png using Guid(238855c82f9494dd6985deaba9768983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2dc4fad3860213a2aba17624e12150b2') in 0.032763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Profile - Inventory Popup.psd
+  artifactKey: Guid(56d76657de05049489bb79b58e2efd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PSD/Profile - Inventory Popup.psd using Guid(56d76657de05049489bb79b58e2efd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0a9a130959c3d0cc477391ecd0b37f5e') in 0.031600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Note Popup.png
+  artifactKey: Guid(980c93d2a389e408d9359e38d00bbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Note Popup.png using Guid(980c93d2a389e408d9359e38d00bbf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '205fe728766482981c2b42f9b5b237f5') in 0.031136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.098623 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Profile - Comments Popup.png
+  artifactKey: Guid(11d1dd3b89f8e4fd7ab00aad2c078782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Mockups/Themes/Dark/PNG/Profile - Comments Popup.png using Guid(11d1dd3b89f8e4fd7ab00aad2c078782) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f34ccee96a17387603cc5c755d592e73') in 0.033904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

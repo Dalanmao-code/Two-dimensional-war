@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/china_unity/release' branch; Version is '2022.3.42f1c1 (d3f79ae33604) revision 13891482'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32599 MB
+OS: 'Windows 11  (10.0.26100) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32397 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-E:\2022.3.42f1c1\Editor\Unity.exe
+D:\Uni_Editor\2022.3.42f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker2
 -projectPath
-E:/UnityProjects/Two-dimensional-war
+D:/UnityProjects/Two-dimensional-war
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57258
-Successfully changed project path to: E:/UnityProjects/Two-dimensional-war
-E:/UnityProjects/Two-dimensional-war
+52520
+Successfully changed project path to: D:/UnityProjects/Two-dimensional-war
+D:/UnityProjects/Two-dimensional-war
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,72 +49,70 @@ E:/UnityProjects/Two-dimensional-war
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21724]  Target information:
+Player connection [39548]  Target information:
 
-Player connection [21724]  * "[IP] 10.11.27.200 [Port] 0 [Flags] 2 [Guid] 2756491187 [EditorId] 2756491187 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-V7CS1ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [39548]  * "[IP] 192.168.122.58 [Port] 0 [Flags] 2 [Guid] 2472858540 [EditorId] 2472858540 [Version] 1048832 [Id] WindowsEditor(7,»ÃX2023) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21724]  * "[IP] 26.79.196.18 [Port] 0 [Flags] 2 [Guid] 2756491187 [EditorId] 2756491187 [Version] 1048832 [Id] WindowsEditor(7,CHINAMI-V7CS1ND) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [21724] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21724] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 53.59 ms, found 3 plugins.
+Player connection [39548] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [39548] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+Refreshing native plugins compatible for Editor in 93.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.42f1c1 (d3f79ae33604)
-[Subsystems] Discovering subsystems at path E:/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/UnityProjects/Two-dimensional-war/Assets
+[Subsystems] Discovering subsystems at path D:/Uni_Editor/2022.3.42f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Two-dimensional-war/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
+    VRAM:     7957 MB
     Driver:   32.0.15.8115
 Initialize mono
-Mono path[0] = 'E:/2022.3.42f1c1/Editor/Data/Managed'
-Mono path[1] = 'E:/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'E:/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Mono path[0] = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Uni_Editor/2022.3.42f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: E:/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016544 seconds.
-- Loaded All Assemblies, in  0.350 seconds
+Register platform support module: D:/Uni_Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Uni_Editor/2022.3.42f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016953 seconds.
+- Loaded All Assemblies, in  0.488 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 945 ms
+Android Extension - Scanning For ADB Devices 849 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.199 seconds
-Domain Reload Profiling: 1539ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  1.209 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (76ms)
-	LoadAllAssembliesAndSetupDomain (118ms)
-		LoadAssemblies (104ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (162ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (103ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (144ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (1199ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1210ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1167ms)
+		SetupLoadedEditorAssemblies (1160ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1041ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (982ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (82ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,57 +122,58 @@ Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.854 seconds
+- Loaded All Assemblies, in  1.315 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-Two-dimensional war
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.753 seconds
-Domain Reload Profiling: 1588ms
-	BeginReloadAssembly (137ms)
+- Finished resetting the current domain, in  1.090 seconds
+Domain Reload Profiling: 2378ms
+	BeginReloadAssembly (219ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (620ms)
-		LoadAssemblies (504ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (954ms)
+		LoadAssemblies (808ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (203ms)
-			TypeCache.Refresh (168ms)
-				TypeCache.ScanAssembly (152ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (753ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (238ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1091ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (905ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (364ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
-			AfterProcessingInitializeOnLoad (21ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (573ms)
+			ProcessInitializeOnLoadMethodAttributes (142ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (4ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 18.05 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 23.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6885 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 52 unused Assets / (465.3 KB). Loaded Objects now: 7348.
-Memory consumption went from 294.5 MB to 294.1 MB.
-Total: 3.315700 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.224300 ms MarkObjects: 2.568100 ms  DeleteObjects: 0.189500 ms)
+Unloading 6901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (489.5 KB). Loaded Objects now: 7364.
+Memory consumption went from 316.9 MB to 316.4 MB.
+Total: 24.583600 ms (FindLiveObjects: 0.468400 ms CreateObjectMapping: 0.216200 ms MarkObjects: 23.596000 ms  DeleteObjects: 0.301300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ChatNpcData.cs: cefb09bf8b80a15b8288e4aaf0cfc6d2 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -182,1073 +181,609 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2870.354149 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Cursors
-  artifactKey: Guid(a9a182bc5a9273d4e9f32ecaa08c607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Cursors using Guid(a9a182bc5a9273d4e9f32ecaa08c607d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8c680dbfd2576dd95345b90b23d635d2') in 0.001988 seconds
+  Time since last request: 531652.281482 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledLeft.png
+  artifactKey: Guid(cce7a164c08e846149e23eedd96e43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledLeft.png using Guid(cce7a164c08e846149e23eedd96e43fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '92d67be945da1929ed8506fd47b6c4b6') in 0.123824 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.046259 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png
-  artifactKey: Guid(dc447985015ee0744a767591afdab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Cursors/Cursor_Rounded_1.png using Guid(dc447985015ee0744a767591afdab2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '79174b1a7366885e02f2b4db7d64e886') in 0.060698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Cursors/Cursor_Squared_2.png
-  artifactKey: Guid(9684e6873367d2e4d9db62d5a5e4bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Cursors/Cursor_Squared_2.png using Guid(9684e6873367d2e4d9db62d5a5e4bc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e03aac86274077049e4725fd9b2d7417') in 0.011656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.112985 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png
-  artifactKey: Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_ActionBar_Frame.png using Guid(d8b12beed994cee4d8af7d172e43f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c9f4ffa9d3bc9ba5a610ff534bffbcd1') in 0.012333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.075116 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Announcement.png
-  artifactKey: Guid(7c9f8445d801add438ad23264e36c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Announcement.png using Guid(7c9f8445d801add438ad23264e36c802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd08b3fadfa7a1ccf347b6434ce9de96a') in 0.010963 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.066815 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Endurance_Empty.png
-  artifactKey: Guid(a25b7d0978979954fa4a08dd057c420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Endurance_Empty.png using Guid(a25b7d0978979954fa4a08dd057c420c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f82bd253b8d8af2ed8b9f63a8a58db81') in 0.011813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill_Rounded.png
-  artifactKey: Guid(b4139ffa9e7d15e4db1f21171dcaf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_HealthBar_Fill_Rounded.png using Guid(b4139ffa9e7d15e4db1f21171dcaf1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '037bada8ddd6bdb151dea35b5f6cc7a6') in 0.013221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty.png
-  artifactKey: Guid(809ebf31e2a241f489d36076206d4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_HealthBar_Empty.png using Guid(809ebf31e2a241f489d36076206d4b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '68bcdbd3ef0540c742850eb2b47d0a00') in 0.009592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Announcement_Rounded.png
-  artifactKey: Guid(9db7cad34af4d0947b454de270dbec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Announcement_Rounded.png using Guid(9db7cad34af4d0947b454de270dbec46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c0927cdeefd306f52952f80ffe7c07ad') in 0.011357 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.200439 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Extended.png
-  artifactKey: Guid(bf5182e4155efef47a9acc2672d7af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Extended.png using Guid(bf5182e4155efef47a9acc2672d7af08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '961aeb2caae6c849125a3f40f218b8e8') in 0.011458 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.012132 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png
-  artifactKey: Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Extended_Rounded.png using Guid(7a3f761d33f9f6b45a178cc533ca9d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a448563e6ca8bda2d1074facd921d631') in 0.009955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.019082 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Rounded.png
-  artifactKey: Guid(d78d7d262fa85804c9b38123d3cd13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Menu_Rounded.png using Guid(d78d7d262fa85804c9b38123d3cd13ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9ee76de03db09530a2c81248a57fc0d7') in 0.008991 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.202151 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Radar_Base.png
-  artifactKey: Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Radar_Base.png using Guid(85a43fe344f303d48bfe6a04ca78b733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4959a636cf648e1316a475662ba667cd') in 0.012524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.025814 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Reticle.png
-  artifactKey: Guid(c918d35b96f9a5c49b81ac47568b7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Reticle.png using Guid(c918d35b96f9a5c49b81ac47568b7f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2b9731400cf96fd3f3e2be672db23d06') in 0.010865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.229841 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty.png
-  artifactKey: Guid(045f45670b2528841a6c117df431fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty.png using Guid(045f45670b2528841a6c117df431fdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b26852639850eb91af0b1e71bc2ceb73') in 0.008762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017206 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty_Rounded.png
-  artifactKey: Guid(a07f1917a0341ca489377750b13edc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Empty_Rounded.png using Guid(a07f1917a0341ca489377750b13edc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ceb71f1811962cdd6ab59a437006f083') in 0.010362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.356178 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill_Rounded.png
-  artifactKey: Guid(830be745fb8594343be51e620e3a3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/HUD/HUD_Target_HealthBar_Fill_Rounded.png using Guid(830be745fb8594343be51e620e3a3068) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '84be88a58064d18c6364a02ae2dd2881') in 0.009106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 60.696218 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowLeft2.png
-  artifactKey: Guid(5231b1599c10e1c4fa8f38f10b6f2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_ArrowLeft2.png using Guid(5231b1599c10e1c4fa8f38f10b6f2928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '47612abb0b336d45c9dc8f9fe26d3a34') in 0.012864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.073544 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Cart2.png
-  artifactKey: Guid(505e6a2651193b44eae7fdf195b49892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Cart2.png using Guid(505e6a2651193b44eae7fdf195b49892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4d30d943d6fe6b1abd95ac7e359331ac') in 0.012616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Info2.png
-  artifactKey: Guid(1c8d090f0b7603e458a43455f46d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Info2.png using Guid(1c8d090f0b7603e458a43455f46d32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ade27cf5e57a1bd1b074377d6d9fb67f') in 0.012491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mail2.png
-  artifactKey: Guid(cf66115924870e64d989ad5dae954aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Mail2.png using Guid(cf66115924870e64d989ad5dae954aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c221712a86b530eee0f2ce01808b2eef') in 0.011278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.653934 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png
-  artifactKey: Guid(76433ff157e1fed499b0ea8365861b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Menu2.png using Guid(76433ff157e1fed499b0ea8365861b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1aae8ebf51d197615540d2bcffee5d29') in 0.009597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.255209 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Profile2.png
-  artifactKey: Guid(e217734527e535e438236c91a0b93e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Profile2.png using Guid(e217734527e535e438236c91a0b93e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a169e419e43b37fe5e8c8cab98e1316b') in 0.010200 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.631316 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Squares2.png
-  artifactKey: Guid(714076b50badcce448b2333a1b11464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_Squares2.png using Guid(714076b50badcce448b2333a1b11464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '94115c969f12071e325dba81a4658ecd') in 0.009767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.229903 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png
-  artifactKey: Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/64x64/Icons_X2.png using Guid(f9694c350b818004685d2bd0dcfa6fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '11e75f7d01725a03f820d58acf1cf61c') in 0.008536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.388510 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Medal.png
-  artifactKey: Guid(07b471126caa64f4984fc7acdd5a3877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Medal.png using Guid(07b471126caa64f4984fc7acdd5a3877) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd7d1a7e0e1154ba3e4bc6ad3fd351196') in 0.015889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Profile.png
-  artifactKey: Guid(9bb451806a279e547a456656c88ec7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Profile.png using Guid(9bb451806a279e547a456656c88ec7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5896775fada65f0489eb6ae04ab2a912') in 0.013496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Power.png
-  artifactKey: Guid(7c2b766bd61186a47906d6605f738b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Power.png using Guid(7c2b766bd61186a47906d6605f738b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b18c9a520e38bb111ad3f3a48422de47') in 0.014180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Random.png
-  artifactKey: Guid(79c0531b54deaf94587f5d3d03c172fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/128x128/Icons_Random.png using Guid(79c0531b54deaf94587f5d3d03c172fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '45ff49a943854e053782801fba58b877') in 0.011417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.415529 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Medal.png
-  artifactKey: Guid(bc22c0ae9d228784ea3a6cdae82fecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Medal.png using Guid(bc22c0ae9d228784ea3a6cdae82fecda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '20c2d66e5316462c7c2fd27c5152fbfe') in 0.013225 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Trophy.png
-  artifactKey: Guid(ce67e3415e3606548a2331626719b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Trophy.png using Guid(ce67e3415e3606548a2331626719b822) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '36a6f964ede52d96e7b4a736d03303d2') in 0.011652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Quest.png
-  artifactKey: Guid(a744946b646a52744a99476ea9c23b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Quest.png using Guid(a744946b646a52744a99476ea9c23b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '59941d8f373b552a04866b7ca5e91753') in 0.011236 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Settings.png
-  artifactKey: Guid(fc1723193809edb45af46f0b21312cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Clean/256x256/Icons_Settings.png using Guid(fc1723193809edb45af46f0b21312cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6e3c50152b1a1ff782a9f85103840d42') in 0.012231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.177108 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowLeft_Rounded.png
-  artifactKey: Guid(90940b1a005341a47bed730b2627af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_ArrowLeft_Rounded.png using Guid(90940b1a005341a47bed730b2627af99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '09029041486468051b01604810441d22') in 0.013628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Import_Rounded.png
-  artifactKey: Guid(39e79700d7c02184badd7dd84caa694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Import_Rounded.png using Guid(39e79700d7c02184badd7dd84caa694b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '088f14aa060e605f8d742661d7db2615') in 0.011939 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Attach_Rounded.png
-  artifactKey: Guid(17f0b8cfa1cdb8e42b48fd2ede22658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Attach_Rounded.png using Guid(17f0b8cfa1cdb8e42b48fd2ede22658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '40a4c1dfae102f89960d08dd488d66b9') in 0.012269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png
-  artifactKey: Guid(d1f170cd259b421488c8409390e73f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Help_Rounded.png using Guid(d1f170cd259b421488c8409390e73f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'be9702bfd2e8ca2f9dce2f9710bb4acd') in 0.011091 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.851035 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Quest_Rounded.png
-  artifactKey: Guid(a9abcff9a343ae34ca5d2f2b91d715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Quest_Rounded.png using Guid(a9abcff9a343ae34ca5d2f2b91d715d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '81c18d3157d237708e6d10f2ab2bd9fd') in 0.008950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.227189 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Settings_Rounded.png
-  artifactKey: Guid(045d75dcc73ea084aa18ccd4fa60b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Settings_Rounded.png using Guid(045d75dcc73ea084aa18ccd4fa60b5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8087eff85f76bf41930b0dbebd745bd5') in 0.009944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017393 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Trophy_Rounded.png
-  artifactKey: Guid(e2776c89b22634949b1cb0e598a34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_Trophy_Rounded.png using Guid(e2776c89b22634949b1cb0e598a34e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c5b0592207e9a5e3ac1ca7ddcdac7315') in 0.009912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.199563 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_X_Rounded.png
-  artifactKey: Guid(ba7695b156362924b8813e5975747f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/64x64/Icons_X_Rounded.png using Guid(ba7695b156362924b8813e5975747f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd0bf42bb63b203c00baa2e7a16ff3ff') in 0.009492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.029400 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Mail.png
-  artifactKey: Guid(68d14330feff079469197e218c293b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Mail.png using Guid(68d14330feff079469197e218c293b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'beeb37f50b2daa5843c1b3f42becab8a') in 0.012564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Settings.png
-  artifactKey: Guid(75d4fddfc128be4498f67507b014d3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Settings.png using Guid(75d4fddfc128be4498f67507b014d3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0f33a70b36791fcbc61587116717eca2') in 0.012769 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Sound.png
-  artifactKey: Guid(31fdb8920a4f0a244ae09037881a4416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/128x128/Icons_Sound.png using Guid(31fdb8920a4f0a244ae09037881a4416) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3a29c1577c3634aa8bfd58cf2155009c') in 0.013196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.363041 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Mail.png
-  artifactKey: Guid(c1497752da0346c47bf522e3f15850a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Mail.png using Guid(c1497752da0346c47bf522e3f15850a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '66dd24e2065830cdd2228a5c9486e1b9') in 0.016160 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Settings.png
-  artifactKey: Guid(a40650184953c38468d302ca80606b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Settings.png using Guid(a40650184953c38468d302ca80606b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c68ac28d88309aea6aab7427bc4fef85') in 0.013427 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Undo.png
-  artifactKey: Guid(afbc6a9fe6a712443806a270ad0baa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/256x256/Icons_Undo.png using Guid(afbc6a9fe6a712443806a270ad0baa92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '08227822263e6fa100732377e22fe62b') in 0.013504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.308535 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Coins.png
-  artifactKey: Guid(dac503e6329af864296002064bb67cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Coins.png using Guid(dac503e6329af864296002064bb67cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6fbeb0ff602b2bf0e44fc9e582d58840') in 0.012914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Magnify.psd
-  artifactKey: Guid(ac034cf5d0dadc34bb09223c3b2aa87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Magnify.psd using Guid(ac034cf5d0dadc34bb09223c3b2aa87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8a80cd42c3cd6f22343355a07e2f554b') in 0.014343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Import.psd
-  artifactKey: Guid(96b44b5afed6b2a468ddfdddf66e1bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Rounded/PSD/Icons_Import.psd using Guid(96b44b5afed6b2a468ddfdddf66e1bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a09fecdcc71a66b7a91050c5ea2fc5f8') in 0.045218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.734131 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/LoadingBar_Full.png
-  artifactKey: Guid(da4072307919dba4581b15ee30cc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/LoadingBar_Full.png using Guid(da4072307919dba4581b15ee30cc6bd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '86a4f7347a4cb24ce497b664f53a5a46') in 0.011415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/Window_Frame.png
-  artifactKey: Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/Window_Frame.png using Guid(b5af773554ef43a4f859d6e7d3513b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6e49628b92c3e949ec6aca7051271f30') in 0.014244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover_Rounded.png
-  artifactKey: Guid(25b6eb02a5eded2459417ad03287dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/Window_PageNumber_Hover_Rounded.png using Guid(25b6eb02a5eded2459417ad03287dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ff8c9764dbffa006504dba62c8d8f9a9') in 0.014341 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.277721 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png
-  artifactKey: Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_ArrowLeft.png using Guid(bed2a4f62a27d5445a3f20454a2ed7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '41a7178933b133c8bf5b1f324018fb45') in 0.015682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Home.png
-  artifactKey: Guid(c9e2864444270e14e9808fb127ddf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Home.png using Guid(c9e2864444270e14e9808fb127ddf429) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f562acbb268e4d6aa64ffe161e6ec8ec') in 0.012249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mail.png
-  artifactKey: Guid(f416f7bfc86ff7742babf449ddec0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mail.png using Guid(f416f7bfc86ff7742babf449ddec0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4646f77d9c78249e01c89cc3dff5bba6') in 0.013328 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.605357 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mute.png
-  artifactKey: Guid(57deecdb611d96143818f22a279cc454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Mute.png using Guid(57deecdb611d96143818f22a279cc454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4c39baeb45adf3234451116b86f91123') in 0.009323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.209380 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Profile.png
-  artifactKey: Guid(2fe543ae9d2e55d418512643e34543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Profile.png using Guid(2fe543ae9d2e55d418512643e34543fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ca13f82a31ffdfb4158d69a9d729a787') in 0.008630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.014124 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Random.png
-  artifactKey: Guid(eb3cd19d89de3cd4caa337d68fb94d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Random.png using Guid(eb3cd19d89de3cd4caa337d68fb94d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '57ea008abd06e4ff1365d1376ab72b71') in 0.008119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.198355 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Sound.png
-  artifactKey: Guid(c7602dfee4abccd47816c7165e1bfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Sound.png using Guid(c7602dfee4abccd47816c7165e1bfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6a090de04bed3df681b92ba6a575092e') in 0.009026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.014778 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Trophy.png
-  artifactKey: Guid(d5a8ce6ff1148d646935ff596188ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_Trophy.png using Guid(d5a8ce6ff1148d646935ff596188ffc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c54055763e23c75ddf8d736b327f44ed') in 0.008719 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.166975 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_X.png
-  artifactKey: Guid(761837612293a90429622bf0b079c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Icons/Square/64x64/Icons_X.png using Guid(761837612293a90429622bf0b079c656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cd0aaad4075ccbd325cc4916f424dfd8') in 0.009690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.367897 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Sign In Rounded/Facebook Frame Logo.png
-  artifactKey: Guid(5ffff9361dbc57d41a2c28343f09c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Sign In Rounded/Facebook Frame Logo.png using Guid(5ffff9361dbc57d41a2c28343f09c698) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1be2d99c857d649cd3e2cdc013e49af1') in 0.012450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Sign In Rounded/Text Field Normal.png
-  artifactKey: Guid(87b3fd4739c058b42bbe7b509ee7c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Sign In Rounded/Text Field Normal.png using Guid(87b3fd4739c058b42bbe7b509ee7c13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '99d5e65cb73f7e1beb55b433a722350f') in 0.009597 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 60.443518 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_Main_Hover_Rounded.png
-  artifactKey: Guid(a97ffa9a1883915479cb5536a2ed6f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_Main_Hover_Rounded.png using Guid(a97ffa9a1883915479cb5536a2ed6f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ff928d559ac68e76ef90dbb4bcac7452') in 0.021863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.057588 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_Radio_On.png
-  artifactKey: Guid(6ebcbe8b33b4ab54f821872797847324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_Radio_On.png using Guid(6ebcbe8b33b4ab54f821872797847324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '100dfe8a0e6ccac2a435988848ae7c67') in 0.015415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png
-  artifactKey: Guid(ed56192304678434796b0f9b994878df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/Modern & Clean GUI/Buttons/Button_TickBox_Off_Rounded.png using Guid(ed56192304678434796b0f9b994878df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '75ae8ea5eeb64934bb3df710ff021b58') in 0.012934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 479.098095 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_256.zip
-  artifactKey: Guid(f15993dee5b6df44fa8a5be3ff101aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_256.zip using Guid(f15993dee5b6df44fa8a5be3ff101aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '57a715f611a35020becbce08c7fb7d41') in 0.001791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.143519 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128
-  artifactKey: Guid(a67e07045c6abcf4699ad8971a735f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128 using Guid(a67e07045c6abcf4699ad8971a735f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '11d43ecb37fa1c0382c5e6c717b3aec1') in 0.000757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.482542 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button
-  artifactKey: Guid(11225b55befd5f145aa2a0620ed65fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button using Guid(11225b55befd5f145aa2a0620ed65fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f08934f13a3f93b17940a3782a4f68f5') in 0.000697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.524230 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle
-  artifactKey: Guid(c7e8a6cdf79e8c94c96f05e13600e402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle using Guid(c7e8a6cdf79e8c94c96f05e13600e402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b2342ff30d8ca738a8ae5ddf2c1795bd') in 0.000857 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054766 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_1.png
-  artifactKey: Guid(1be6ecb2a70ab274ebdf20057e7983a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_1.png using Guid(1be6ecb2a70ab274ebdf20057e7983a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '70ea055c9fb3758f6d64a3134ec3b6f0') in 0.013683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.124368 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_4.png
-  artifactKey: Guid(05980be263079154a844351cc2a70990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_4.png using Guid(05980be263079154a844351cc2a70990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ea04ee5bea69ce424846e2134683cf53') in 0.012162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.068621 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_9.png
-  artifactKey: Guid(3a7ead498730dee41853e1470a404d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_9.png using Guid(3a7ead498730dee41853e1470a404d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '388bb652be08489d40f4a052b4b140e3') in 0.010287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.117325 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_13.png
-  artifactKey: Guid(965a03d3ce93af24bb9f188eda9d4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_13.png using Guid(965a03d3ce93af24bb9f188eda9d4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ac39d509a2cd19ebd8e5ee4e89291b6e') in 0.011270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_14.png
-  artifactKey: Guid(2f2a42f5abe20d94fb29325bda4ec163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_14.png using Guid(2f2a42f5abe20d94fb29325bda4ec163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4e2331505b5fb0f7db528dc24541a4f3') in 0.010537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_8.png
-  artifactKey: Guid(1f6a181ea8dee2e4985f0ba1741b2326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_8.png using Guid(1f6a181ea8dee2e4985f0ba1741b2326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7ac1828cfd62e0968a765b876ffe49b8') in 0.012317 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_15.png
-  artifactKey: Guid(89bb2788fdb63c6479cdaefbaf27e1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_15.png using Guid(89bb2788fdb63c6479cdaefbaf27e1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3a2fd5b7ea6b7edfbe47e36462a816eb') in 0.010638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_11.png
-  artifactKey: Guid(384745550c1a245478333c4eb5c999f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_11.png using Guid(384745550c1a245478333c4eb5c999f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '475a2170c6d6548393ad413123a42f4d') in 0.014153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.401109 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_18.png
-  artifactKey: Guid(07f6fa9feae519447822e54364a12094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_18.png using Guid(07f6fa9feae519447822e54364a12094) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4479bc72dbaded621c355967e94ffbd') in 0.011869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.029604 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_19.png
-  artifactKey: Guid(04f215e62bffca04983473eaee816dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_19.png using Guid(04f215e62bffca04983473eaee816dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e0fd06e4a4650acc3968704d88be0033') in 0.013217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_21.png
-  artifactKey: Guid(218e4efaa8ca49742ae503d26f98754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_21.png using Guid(218e4efaa8ca49742ae503d26f98754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '988a7a174ec485884e5cb23ea36c9983') in 0.010964 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.157167 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_22.png
-  artifactKey: Guid(619f3103065b7f84ca26861062d63315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_22.png using Guid(619f3103065b7f84ca26861062d63315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c4ac69f9010dba21f17b5a8898d7fc7d') in 0.010217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.029489 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_23.png
-  artifactKey: Guid(993e78c4675c68643a1fb66f134088a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_23.png using Guid(993e78c4675c68643a1fb66f134088a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8ef88190800300fe7e5c468245bc7f97') in 0.012132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.169604 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_25.png
-  artifactKey: Guid(bc6592d38e018fa4ca0c78b66e8a5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_25.png using Guid(bc6592d38e018fa4ca0c78b66e8a5dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e3e19982666c068e03f46f3b16be1784') in 0.010798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.009792 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_27.png
-  artifactKey: Guid(4aeb14fd4ec241349aa80b7be9064211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_27.png using Guid(4aeb14fd4ec241349aa80b7be9064211) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c2c2d061dfbd752344b22bcffb5795b5') in 0.009446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.010111 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_28.png
-  artifactKey: Guid(4035dacf9020c644ca72e8f156970afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_28.png using Guid(4035dacf9020c644ca72e8f156970afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f61184d4dadf78f9552bd766866a8eff') in 0.011945 seconds
-Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.165694 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_29.png
-  artifactKey: Guid(21a2b4572a3ae9746bd139d723c17116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_circle/button_circle_29.png using Guid(21a2b4572a3ae9746bd139d723c17116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd1f2b53a97917e298a91a77f8a5a0209') in 0.011638 seconds
+  Time since last request: 0.000225 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PNG/Potion - Half.png
+  artifactKey: Guid(82358edede1264988aa40cf1e6cb85b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PNG/Potion - Half.png using Guid(82358edede1264988aa40cf1e6cb85b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7a4a80b965ce1c2684c19bdde28c4c4f') in 0.067386 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.892730 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_15.png
-  artifactKey: Guid(2586c5c403bf89e489d4391b05a58ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_15.png using Guid(2586c5c403bf89e489d4391b05a58ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ff05029a03d209e84120b4ef898ecce') in 0.012777 seconds
+  Time since last request: 0.016711 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadArrowSimpleUpRightDownLeft.psd
+  artifactKey: Guid(dde7bb03ae3554b8ba88e3865eeb902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadArrowSimpleUpRightDownLeft.psd using Guid(dde7bb03ae3554b8ba88e3865eeb902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '01bd517bbcd26bbd4cd8cfd75022e174') in 0.044792 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_26.png
-  artifactKey: Guid(305f1088dcc6efe4d9721ce346ce0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_26.png using Guid(305f1088dcc6efe4d9721ce346ce0021) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '792af67dc4c39072da32a10d73b3a94c') in 0.013383 seconds
+  Time since last request: 0.000051 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadFilledLeftRight_4.png
+  artifactKey: Guid(729b441f3e226406bb78fa5b1619a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadFilledLeftRight_4.png using Guid(729b441f3e226406bb78fa5b1619a14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5e6d726d7dd1a37740050acfafa7754d') in 0.044683 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_19.png
-  artifactKey: Guid(559ef5f2b5d296144b15c7a8596e99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_19.png using Guid(559ef5f2b5d296144b15c7a8596e99f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '69a95e59036fe82bab133005cacb536e') in 0.012402 seconds
+  Time since last request: 0.000207 seconds.
+  path: Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner5_square1/button_line_corner5_square1_15.png
+  artifactKey: Guid(327219207524ad94aa0ce61dafdb8a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner5_square1/button_line_corner5_square1_15.png using Guid(327219207524ad94aa0ce61dafdb8a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fcce2d670ac3cad438bb458f9be6734c') in 0.060217 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_21.png
-  artifactKey: Guid(9b60ae0bdf955a64baa8abe76cc9ee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_21.png using Guid(9b60ae0bdf955a64baa8abe76cc9ee20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '87fd518b802eebfeef6079b6b26848ab') in 0.010891 seconds
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PSD/TrackpadFilledTopLeft.psd
+  artifactKey: Guid(d46e6d1de35f043509c62d16a6e6c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PSD/TrackpadFilledTopLeft.psd using Guid(d46e6d1de35f043509c62d16a6e6c6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6a1118024f3f52b53fef263dba774743') in 0.044387 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_18.png
-  artifactKey: Guid(b495e06afcd03694bb1b7cdfea93b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_18.png using Guid(b495e06afcd03694bb1b7cdfea93b247) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0b2706adcc81bafec14aed0b8995679c') in 0.010362 seconds
+  Time since last request: 0.000187 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadArrowUpDownLeftRight.psd
+  artifactKey: Guid(34a86fb1252c8412c9f5ba59b33a2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadArrowUpDownLeftRight.psd using Guid(34a86fb1252c8412c9f5ba59b33a2864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '45c9eea6884f9df4609477d2e5e2a25d') in 0.040468 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_30.png
-  artifactKey: Guid(96f9957bb0c59ad488bbe4e824c87b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_30.png using Guid(96f9957bb0c59ad488bbe4e824c87b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7e370ed240bbcf60ab6ae2e41569a23d') in 0.011651 seconds
+  Time since last request: 0.000187 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledLeftRight.psd
+  artifactKey: Guid(40ec9419497b6477ea9396e0cfcf7cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledLeftRight.psd using Guid(40ec9419497b6477ea9396e0cfcf7cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'caa1f349ab8b7e9dbb113adac1017598') in 0.045820 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_24.png
-  artifactKey: Guid(bfe66c623ec240043be12e4c29c2255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_24.png using Guid(bfe66c623ec240043be12e4c29c2255d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ea3da23837c3cae74fad5626720980d2') in 0.011435 seconds
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadArrowUpDownLeftRight.psd
+  artifactKey: Guid(ab3ce950cbc5f4855b38cc0af91cae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadArrowUpDownLeftRight.psd using Guid(ab3ce950cbc5f4855b38cc0af91cae69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7855ca1c6fe3c98d1e1ec37e3c90a5e7') in 0.046992 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_29.png
-  artifactKey: Guid(7b3b63b2f75f45743b4fdf00b03b4d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_29.png using Guid(7b3b63b2f75f45743b4fdf00b03b4d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50963c1f0ca1b1f44f9bde22aa9b3048') in 0.011198 seconds
+  Time since last request: 0.000537 seconds.
+  path: Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Up.png
+  artifactKey: Guid(377515847bbe53d4fbe82b311386c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/Modern & Clean GUI/Menus & Windows/ScrollBar_Arrow_Up.png using Guid(377515847bbe53d4fbe82b311386c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ecd5d3a668b34e8473b2175569d00e63') in 0.033121 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.779652 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_14.png
-  artifactKey: Guid(d5169de788a4c2745b5be16acd53596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_14.png using Guid(d5169de788a4c2745b5be16acd53596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50606c648a103a63b5cdb9532f671043') in 0.014321 seconds
+  Time since last request: 0.010015 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadFilledRight_4.png
+  artifactKey: Guid(5741ad121bd5e484caf28dbcbbfb640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadFilledRight_4.png using Guid(5741ad121bd5e484caf28dbcbbfb640a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '122485052320b09b18cc031a8131d14f') in 0.040053 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.033878 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_13.png
-  artifactKey: Guid(c0421b9cf25d3a74b976d76327f645e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_13.png using Guid(c0421b9cf25d3a74b976d76327f645e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1d6fb06ed24d5fbf536b1c83d7bbaa1f') in 0.009854 seconds
+  Time since last request: 0.000797 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadFilledDownLeft_6.png
+  artifactKey: Guid(d47673d49594745219c9d6ce336f2306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadFilledDownLeft_6.png using Guid(d47673d49594745219c9d6ce336f2306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ab74356ebd76a7578ef9ee18cbe58b10') in 0.047024 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.145334 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_12.png
-  artifactKey: Guid(ebae4495106267a4db0ef9da5682dc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_12.png using Guid(ebae4495106267a4db0ef9da5682dc98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '88ef38d08bdc440bb04aaf4bad5521eb') in 0.012264 seconds
+  Time since last request: 0.014798 seconds.
+  path: Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner1_square2/button_line_corner1_square2_25.png
+  artifactKey: Guid(f89e3c8f059856046b998169ef6f98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner1_square2/button_line_corner1_square2_25.png using Guid(f89e3c8f059856046b998169ef6f98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '87abab5f5cb4b7e4546a12b32caed47b') in 0.050742 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.042111 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_10.png
-  artifactKey: Guid(8fbd6d26708a8a545a50a319a8921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_10.png using Guid(8fbd6d26708a8a545a50a319a8921b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '46f0234330e25ecbceddf6d19594d758') in 0.009753 seconds
+  Time since last request: 0.000204 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadArrowSimpleUpRightDownLeft.psd
+  artifactKey: Guid(2424095b2543344469ce2936be2f4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadArrowSimpleUpRightDownLeft.psd using Guid(2424095b2543344469ce2936be2f4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ebde2c7d1bbdee41684aba173e40f873') in 0.075470 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.334591 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_9.png
-  artifactKey: Guid(f91bf25cc314348499d03e9e8add4841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_9.png using Guid(f91bf25cc314348499d03e9e8add4841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4924ba3095c98931db6b3c7f3a5e1bfa') in 0.010298 seconds
+  Time since last request: 0.002084 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadArrowUpDown.psd
+  artifactKey: Guid(ae4139e66424e491c8dea2c7961483e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadArrowUpDown.psd using Guid(ae4139e66424e491c8dea2c7961483e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a867e5fe7399f1ecfb6a9a63d27e7ead') in 0.042099 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010817 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_8.png
-  artifactKey: Guid(1b73a6d156e5d5f4fa071dafec3e475c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_8.png using Guid(1b73a6d156e5d5f4fa071dafec3e475c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f199e03f754b32ffd8e547559f6ff6eb') in 0.010137 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/OculusRift/BlackSolid/PNG/Remote/HomeButton.png
+  artifactKey: Guid(b0ec616cd9d9642428a4c8f23f3e30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/OculusRift/BlackSolid/PNG/Remote/HomeButton.png using Guid(b0ec616cd9d9642428a4c8f23f3e30f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'dce89de188e60c4b70934d6c07d6c61d') in 0.046786 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.030811 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_7.png
-  artifactKey: Guid(e8fa86968e2f47d4ab614a1b06e0220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_7.png using Guid(e8fa86968e2f47d4ab614a1b06e0220b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5840c61ec373e4dd59456091650e6f4c') in 0.009157 seconds
+  Time since last request: 0.001355 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadColors4Directions.png
+  artifactKey: Guid(e87e6f457adb747e2a151dbce3293b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadColors4Directions.png using Guid(e87e6f457adb747e2a151dbce3293b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '77bff8ff07417b62ab540b076c1cd405') in 0.036627 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.110608 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_6.png
-  artifactKey: Guid(c81bf4b46797c5041b0552f183644d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_6.png using Guid(c81bf4b46797c5041b0552f183644d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4eb996113aea259f978bbad3851749b2') in 0.009605 seconds
+  Time since last request: 0.000179 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadFilledDownRight.psd
+  artifactKey: Guid(2b2534ab284184254ae3a7474d172ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadFilledDownRight.psd using Guid(2b2534ab284184254ae3a7474d172ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '38a9a0b667e8f378752a7b643ef6ce43') in 0.036349 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.028367 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_3.png
-  artifactKey: Guid(0823416d2440f24449e7b920c03c1621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_3.png using Guid(0823416d2440f24449e7b920c03c1621) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '439f3df9fcd08e6e10f3de16b87feea0') in 0.009496 seconds
+  Time since last request: 0.000299 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadArrowSimpleUp.png
+  artifactKey: Guid(a47398263fa134689a8314f6e47e6ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadArrowSimpleUp.png using Guid(a47398263fa134689a8314f6e47e6ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0d63a13f0e262933524cdf01240cc5ab') in 0.039479 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_5.png
-  artifactKey: Guid(f1b80858478ebf24e8e0fc87c4281ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_5.png using Guid(f1b80858478ebf24e8e0fc87c4281ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '503b1dbb2e2c859bf79d5f8d7e10bbf0') in 0.009928 seconds
+  Time since last request: 0.000063 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadDownLeft.psd
+  artifactKey: Guid(8d0cd4c3bf23b429a93e1b274b6ba193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadDownLeft.psd using Guid(8d0cd4c3bf23b429a93e1b274b6ba193) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8a572f37a9afcb2527a720248f2226b9') in 0.032584 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.138115 seconds.
-  path: Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_2.png
-  artifactKey: Guid(f7c660f921268744a973e1c802b34fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button/button_corner_rectangle1/button_corner_rectangle1_2.png using Guid(f7c660f921268744a973e1c802b34fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e4f9ea4d709a6fdf9c739e8e1ad07226') in 0.009336 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadFilledLeft.psd
+  artifactKey: Guid(751cda9d94c3044c7899c1dc21323129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadFilledLeft.psd using Guid(751cda9d94c3044c7899c1dc21323129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0872df2a766bf303f3dd4aa5d0712a2f') in 0.034714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadFilledLeft_6.png
+  artifactKey: Guid(932e6e8b2f569478a821ec578d065111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadFilledLeft_6.png using Guid(932e6e8b2f569478a821ec578d065111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b6f64685e0c2c3fde4bde0982b57907f') in 0.038571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadDownLeft_6.png
+  artifactKey: Guid(7eaf569e484bf4090a7ef4438490d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadDownLeft_6.png using Guid(7eaf569e484bf4090a7ef4438490d538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b93f56b721b38bcc89b33fe974994031') in 0.033690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledTopRight.png
+  artifactKey: Guid(b92056730f4f14199a3b40047cd9af5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledTopRight.png using Guid(b92056730f4f14199a3b40047cd9af5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1d3fc3c6121a12c3f5d9709791e17b4d') in 0.031002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadArrowUpDownLeftRight_2.png
+  artifactKey: Guid(7533941d263fc43aba767477f4da1fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadArrowUpDownLeftRight_2.png using Guid(7533941d263fc43aba767477f4da1fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '735872071c8d654ddaa1c56c7df22324') in 0.035879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadColors4Directions.psd
+  artifactKey: Guid(d7340355996db4fcea473743bdcab911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadColors4Directions.psd using Guid(d7340355996db4fcea473743bdcab911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'db3bf3e32b98f0177afee18127537488') in 0.031013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner5_square1/button_line_corner5_square1_39.png
+  artifactKey: Guid(bfdc799e378c0d648b54ef41a9e32f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/CleanFlatIcon/png_128/button_line/button_line_corner5_square1/button_line_corner5_square1_39.png using Guid(bfdc799e378c0d648b54ef41a9e32f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '10b21e9ba913d22f7905418d0aac9b1d') in 0.029849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PSD/TrackpadArrowSimpleUpRightDownLeft.psd
+  artifactKey: Guid(cbb356e6dbce543ae84e271223111177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PSD/TrackpadArrowSimpleUpRightDownLeft.psd using Guid(cbb356e6dbce543ae84e271223111177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1f98b3cd2626b2ffa016adf82bf58a00') in 0.037124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadColors4Directions_6.png
+  artifactKey: Guid(6a6fc35152dc64e5681f7cd4c0cbf17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutline/PNG/TrackpadColors4Directions_6.png using Guid(6a6fc35152dc64e5681f7cd4c0cbf17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '613418c14c0b32920fd6cd269b819059') in 0.051094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006329 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadFilled.psd
+  artifactKey: Guid(d5671bc4b266842c7a974782e38c1710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadFilled.psd using Guid(d5671bc4b266842c7a974782e38c1710) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd6118215cd3ae6fe293f5ca5b699600f') in 0.042624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004029 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadFilledLeft_2.png
+  artifactKey: Guid(c6412305169734610b09a684a5cf0361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadFilledLeft_2.png using Guid(c6412305169734610b09a684a5cf0361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a5ab7e91f26a2e3c6c14586298c86314') in 0.040421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.004197 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadColorUp.psd
+  artifactKey: Guid(99ec800afa0fb4731ae7e1d07a3d1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadColorUp.psd using Guid(99ec800afa0fb4731ae7e1d07a3d1f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '610c3b8003fea2cd858632d82d931d37') in 0.042691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Emojis/Outline/Happy.png
+  artifactKey: Guid(7ee46fc6fe1ec4f6a9cf8f2632077adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Emojis/Outline/Happy.png using Guid(7ee46fc6fe1ec4f6a9cf8f2632077adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6f484bbabfa9fe82f2dd863b0a162b4d') in 0.050041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013373 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowSimpleRightLeft_4.png
+  artifactKey: Guid(df3e5691213da4791939d5f19fdb5e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowSimpleRightLeft_4.png using Guid(df3e5691213da4791939d5f19fdb5e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4768b4f396dc7e1d24e6dd5898a2b8ba') in 0.044850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/Game/Potion/Potion - Minus.png
+  artifactKey: Guid(47cfabaff8ba942d599c6b1f9b96c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/Game/Potion/Potion - Minus.png using Guid(47cfabaff8ba942d599c6b1f9b96c653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '471c7e674c739f706d0672c7a385edab') in 0.045775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003407 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PNG/TrackpadDownRight_5.png
+  artifactKey: Guid(88a62d223299740b283eb11306c054e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PNG/TrackpadDownRight_5.png using Guid(88a62d223299740b283eb11306c054e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1a6682c31a6b9713c24fe4322c01a8e3') in 0.049703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000943 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Potion - Empty.psd
+  artifactKey: Guid(041ce29e734ab4323ba8d70a9bc8de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Potion - Empty.psd using Guid(041ce29e734ab4323ba8d70a9bc8de3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '11422ae37319505a412a7aa7cd161e8c') in 0.045286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010849 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadArrowUp.png
+  artifactKey: Guid(216fce95eedb14ca897f1023f33924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadArrowUp.png using Guid(216fce95eedb14ca897f1023f33924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '542b3ab0beaef52873e5d83438fe50d7') in 0.043401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012104 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Help.psd
+  artifactKey: Guid(b304b1814c28e4f96ab8e83530bf5ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Help.psd using Guid(b304b1814c28e4f96ab8e83530bf5ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9caaa6dcbd06df42e4d321f19ce395af') in 0.050102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001745 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadFilled.psd
+  artifactKey: Guid(d5e4e9469c7014d7289cf9c2e325be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PSD/TrackpadFilled.psd using Guid(d5e4e9469c7014d7289cf9c2e325be7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b9aaebce7e5dac826414ce2f9e2a8447') in 0.044458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowUpDown_4.png
+  artifactKey: Guid(59577db3afefc48e1ad9366add697887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowUpDown_4.png using Guid(59577db3afefc48e1ad9366add697887) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '761be81fa36472bb1688dc136fdae61a') in 0.039356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002651 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledDown.png
+  artifactKey: Guid(d2954f3b0551c413cbec815efe43064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackOutlineSolid/PNG/TrackpadFilledDown.png using Guid(d2954f3b0551c413cbec815efe43064e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a10018df31c7a42a0d589def6022e276') in 0.044875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001861 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadDownRight.psd
+  artifactKey: Guid(4612d4bf18c89439bbf8c0b94309840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteOutline/PSD/TrackpadDownRight.psd using Guid(4612d4bf18c89439bbf8c0b94309840e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4aa94c738ea604f5dea3f879e974d814') in 0.050078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002251 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowSimpleUp_4.png
+  artifactKey: Guid(974a208f9a6d24fd4bfa2bbbda11b4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PNG/TrackpadArrowSimpleUp_4.png using Guid(974a208f9a6d24fd4bfa2bbbda11b4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7afb3c336ca3db587465858be16da0cf') in 0.049807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001393 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadDownLeft_2.png
+  artifactKey: Guid(6f66a30b346474a5e980807b0ad241ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PNG/TrackpadDownLeft_2.png using Guid(6f66a30b346474a5e980807b0ad241ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6a79f14f3843f3e67f4a5b18b9fc88a4') in 0.040906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.033868 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Heart - Outline.psd
+  artifactKey: Guid(f60d4e2d02dbe424bbfc1fbc77a4afe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Heart - Outline.psd using Guid(f60d4e2d02dbe424bbfc1fbc77a4afe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '90be45435e41b7e1fd7b28931ae437f3') in 0.045741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.024939 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PNG/TrackpadCross_3.png
+  artifactKey: Guid(7b60436bb67d4488dad0d7f8b7d8b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PNG/TrackpadCross_3.png using Guid(7b60436bb67d4488dad0d7f8b7d8b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6790c622a874d0c783eacfc38eb73b65') in 0.041607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006617 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PNG/TrackpadArrowUp_3.png
+  artifactKey: Guid(7eb949938684a4cc6b62cd8eb91caf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PNG/TrackpadArrowUp_3.png using Guid(7eb949938684a4cc6b62cd8eb91caf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4b9c1775d73a6aebf71cfa76be85ff2d') in 0.040083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledDownRight.psd
+  artifactKey: Guid(4b308071bab5b48138303df15a052014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledDownRight.psd using Guid(4b308071bab5b48138303df15a052014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5e1609daa5fe71a044a1c1704f47caf7') in 0.046921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001610 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Emojis/Outline/PSD/Happy - Outline.psd
+  artifactKey: Guid(ad2b0cb2adc4845de86a96e0500f9975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Emojis/Outline/PSD/Happy - Outline.psd using Guid(ad2b0cb2adc4845de86a96e0500f9975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '92316d61263736e2391f7c5a012f1b29') in 0.043712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007864 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadFilledDownLeft.psd
+  artifactKey: Guid(f78f6eccaa3ec49bf99f09beea890a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/BlackSolid/PSD/TrackpadFilledDownLeft.psd using Guid(f78f6eccaa3ec49bf99f09beea890a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '94c8f11a7097b12e0c1e48777950d3c6') in 0.044591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002802 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledTopLeftDownRight.psd
+  artifactKey: Guid(bbf345fbffa7340369c60502c27edb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/WhiteSolid/PSD/TrackpadFilledTopLeftDownRight.psd using Guid(bbf345fbffa7340369c60502c27edb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8b3d1a37ff982e4a2f0229c4514c67c9') in 0.042918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002000 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadDownLeft.psd
+  artifactKey: Guid(989a1bea4d7b3455782765312465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Game Controller/VR Game Controller/HTCVive/GreyOutlineSolid/PSD/TrackpadDownLeft.psd using Guid(989a1bea4d7b3455782765312465955b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6ff812df91148f0649a215db26df9933') in 0.045323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 33.180897 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/UI/User/Body.png
+  artifactKey: Guid(a6ae5405d2f214c3fb9add4cad381894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/UI/User/Body.png using Guid(a6ae5405d2f214c3fb9add4cad381894) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b3ded0cdf1ceac33f49389f39664845b') in 0.035297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Body - Man.psd
+  artifactKey: Guid(5bffbe001a26b444d91eb11e5fdefe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Body - Man.psd using Guid(5bffbe001a26b444d91eb11e5fdefe24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'db0814d85ca3e0d6c61618d776c1f692') in 0.030642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Body - Woman.psd
+  artifactKey: Guid(64b49b6c86ab642549a7466e29007542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Sources/Icons/Icons/PSD/Body - Woman.psd using Guid(64b49b6c86ab642549a7466e29007542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9a617731696bc6549cf2322e62e96d08') in 0.036435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/Game/Tools/Bomb.png
+  artifactKey: Guid(fde41cf049a2d451b8113c13f721260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/Game/Tools/Bomb.png using Guid(fde41cf049a2d451b8113c13f721260b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd5679ce1214040b7c1730187f859e943') in 0.030127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/UI/Media/Book.png
+  artifactKey: Guid(10834b771c8164d089343653042814d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Icons/Icons/UI/Media/Book.png using Guid(10834b771c8164d089343653042814d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a83f42a41817b2fdf7f14c407cd4fe9a') in 0.041943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.201405 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Avatars/Boy 2.png
+  artifactKey: Guid(8efbccf2d0c41498fb3d67d0f0f089ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Avatars/Boy 2.png using Guid(8efbccf2d0c41498fb3d67d0f0f089ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'bfb749f04795e80052f10431ba3fea66') in 0.027151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Avatars/Boy 6.png
+  artifactKey: Guid(df2686be867ab4f9eb59c51b7cb8214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OtherAssets/GUIPack-Clean&Minimalist/Demo/Sprites/Avatars/Boy 6.png using Guid(df2686be867ab4f9eb59c51b7cb8214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b8f9a0b4293bcd0c4d622f99e8d13e9a') in 0.020869 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout

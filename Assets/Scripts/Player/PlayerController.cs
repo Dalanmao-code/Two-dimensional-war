@@ -8,6 +8,7 @@ using UnityEngine.Playables;
 using Unity.VisualScripting;
 using Cinemachine;
 using UnityEngine.Animations.Rigging;
+using NUnit.Framework;
 
 
 /// <summary>
@@ -58,6 +59,11 @@ public class PlayerController : MonoBehaviourPun
     [HideInInspector]
     public Vector3 worldMovement; //世界空间下玩家的移动方向
 
+    [Tooltip("瞄准UI")]
+    public TwoStateButtonUI AimUi;
+
+    private bool IsLocked = false;
+
     public bool isMine;
     private void Awake()
     {
@@ -67,23 +73,44 @@ public class PlayerController : MonoBehaviourPun
             AimTarget.transform.GetChild(0).gameObject.SetActive(false);
             return;
         }
+
+        GameManager.MinePlayer = this;
         Application.targetFrameRate = 90;
         input = new MyInputSystem();
         if (IsAndroid)
         {
             movejoystick = GameObject.Find("Variable Joystick").GetComponent<Joystick>();
             Screen.autorotateToLandscapeLeft = true;
+            AimUi = GameObject.Find("AimUi").GetComponent<TwoStateButtonUI>();
         }
     }
+
+    public void IsAimAndroidUI(bool IsEnabled)
+    {
+        if (IsEnabled)
+        {
+            IsAiming = true; 
+        }
+        else
+        {
+            IsAiming=false;
+        }
+    }
+
+    
 
     void Start()
     {
         if(!photonView.IsMine)
-            cameralTransform.transform.parent.gameObject.SetActive(false);
+            cameralTransform.transform.parent.gameObject.SetActive(false); //取消不是我的相机
         else
         {
             if(!IsAndroid)
-            Cursor.lockState = CursorLockMode.Locked; //锁定光标
+                Cursor.lockState = CursorLockMode.Locked; //锁定光标
+            else
+            {
+                AimUi.OnClickEvents += IsAimAndroidUI;
+            }
         }
         ExitAim();
     }
@@ -91,7 +118,7 @@ public class PlayerController : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
-        if (!photonView.IsMine)
+        if (!photonView.IsMine|| IsLocked)
             return;
         #region 更新玩家输入
         if (!IsAndroid)
@@ -99,8 +126,11 @@ public class PlayerController : MonoBehaviourPun
         else
             moveInput = new Vector2(movejoystick.Horizontal, movejoystick.Vertical);
 
-        IsSpring = input.Player.IsSprint.IsPressed();
-        IsAiming = input.Player.IsAiming.IsPressed();
+        if (!IsAndroid)
+        {
+            IsSpring = input.Player.IsSprint.IsPressed();
+            IsAiming = input.Player.IsAiming.IsPressed();
+        }
         IsJumping = input.Player.IsJumping.IsPressed();
         #endregion
 
@@ -172,6 +202,25 @@ public class PlayerController : MonoBehaviourPun
         }
     }
 
+
+
+    public void LockedPlayer()
+    {
+        IsLocked = true;
+        freeLookCamera.enabled = false;
+        aimingCamera.enabled = false;
+        if(!IsAndroid)
+            Cursor.lockState = CursorLockMode.None; 
+    }
+
+    public void UnLockedPlayer()
+    {
+        IsLocked = false;
+        freeLookCamera.enabled = true;
+        aimingCamera.enabled = true;
+        if (!IsAndroid)
+            Cursor.lockState = CursorLockMode.Locked; //锁定光标
+    }
     private void OnEnable()
     {
         input.Enable();
@@ -180,5 +229,6 @@ public class PlayerController : MonoBehaviourPun
     private void OnDisable()
     {
         input.Disable();
+        AimUi.OnClickEvents -= IsAimAndroidUI;
     }
 }
